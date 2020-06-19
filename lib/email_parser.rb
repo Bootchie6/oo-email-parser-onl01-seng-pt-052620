@@ -7,6 +7,10 @@
 class EmailAddressParser
   attr_reader :emails
   
+  def
+    
+  end 
+
   def parse(string)
     string.split(', ')
   end
