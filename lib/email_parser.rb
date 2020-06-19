@@ -6,7 +6,9 @@
 
 class EmailAddressParser
   
-  
+  def parse(string)
+    string.split(', ')
+  end
   
   
 end
