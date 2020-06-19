@@ -5,7 +5,7 @@
 
 
 class EmailAddressParser
-  
+  attr_reader 
   def parse(string)
     string.split(', ')
   end
